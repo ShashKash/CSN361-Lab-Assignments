@@ -121,10 +121,9 @@ void separateID(char str[], char ipClass) {
 }
 
 // Main function
-int main() {
-	char str[] = "192.226.12.11";
-	char ipClass = findClassOfIP(str);
+int main(int argc,char* argv[]) {
+	char ipClass = findClassOfIP(argv[1]);
 	printf("Class of the given IP address is %c\n", ipClass);
-	separateID(str, ipClass);
+	separateID(argv[1], ipClass);
 	return 0;
 }

@@ -1,9 +1,6 @@
-# @file Q4.tcl
-# @brief Solution of Question 4 of LA3. Simulator for ring topology.
-#
-# @author Shashank
-#
-# @date 8/21/2019
+## \file Q4.tcl
+# File Solution of Question 4 of LA3. Simulator for ring topology.
+# Author Shashank
 
 set netSim [new Simulator]
 
